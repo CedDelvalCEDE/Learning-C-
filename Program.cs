@@ -5,39 +5,23 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using Microsoft.VisualBasic;
 
-// while nombre premier inférieur au nombre entré par l'user
+// deux structures Celcius et Fahrenheit et convertion <=>
 
-void coll_exo_1()
+public struct Celcius
 {
-    List<int> values = [];
-    Console.WriteLine("Entrez un nombre : ");
-    var entry = Console.ReadLine();
-    bool fine = int.TryParse(entry, out int entry_int);
-    int start_nb = 2;
-    if (fine && (entry_int > 1 || entry_int < -1)) {
-        while (start_nb <= entry_int)
-        {
-            int count = 0;
-            for (int i = 2; i <= entry_int; i++)
-            {
-                if (start_nb % i == 0) 
-                {
-                    count++;
-                }
-            }
-            if (count == 1 && start_nb > 1) {
-                values.Add(start_nb);
-            }
-            start_nb++;
-        }
-        foreach (int i in values) 
-        {
-            Console.Write($"| {i} |");
-        }
-    }
-    else {
-        Console.WriteLine("l'entrée n'est pas un nombre ou un nombre non divisable (0,1,-1).");
+    public double celcius;
+    public double convert_F() 
+    {
+        return (celcius * (1.8))+ 32;
     }
 }
 
-coll_exo_1();
+public struct Fahrenheit
+{
+    public double fahrenheit;
+    public double convert_C()
+    {
+        double cinq_neuv = 5 / 9;
+        return (fahrenheit * (cinq_neuv)) -32;
+    }
+}
