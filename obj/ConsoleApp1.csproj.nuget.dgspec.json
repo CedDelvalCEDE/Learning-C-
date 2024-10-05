@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guste\\Documents\\CEDE\\second year\\Progra Objet\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "c:\\Users\\guste\\Documents\\CEDE\\second year\\Progra Objet\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guste\\Documents\\CEDE\\second year\\Progra Objet\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "c:\\Users\\guste\\Documents\\CEDE\\second year\\Progra Objet\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guste\\Documents\\CEDE\\second year\\Progra Objet\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "c:\\Users\\guste\\Documents\\CEDE\\second year\\Progra Objet\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\guste\\Documents\\CEDE\\second year\\Progra Objet\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "c:\\Users\\guste\\Documents\\CEDE\\second year\\Progra Objet\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\guste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guste\\Documents\\CEDE\\second year\\Progra Objet\\ConsoleApp1\\obj\\",
+        "outputPath": "c:\\Users\\guste\\Documents\\CEDE\\second year\\Progra Objet\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\guste\\AppData\\Roaming\\NuGet\\NuGet.Config"
