@@ -1,5 +1,6 @@
 // See https://aka.ms/new-console-template for more information
 
+using System.ComponentModel.Design;
 using System.Globalization;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -244,11 +245,19 @@ public struct Fahrenheit
 // vue du chapitre sur les classes et les énumérations.
 
 enum Jour {Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche}
-enum Activité {Etude, Emploi, Retraite}
+public enum Activite {Etude, Emploi, Retraite}
+public enum GroupeSanguin {O_plus, O_moins, A_plus, A_moins, B_plus, B_moins, AB_plus, AB_moins}
 
-public class Personne (string nom, string prenom) {
-    string name = nom;
-    string surname = prenom;
+public class Personne (string nom, string prenom, string nrn, GroupeSanguin gs, Activite status, string nationality, string adresse, string ville, string code_postal) {
+    public string name = nom;
+    public string surname = prenom;
+    public string numero_registre_national = nrn;
+    public GroupeSanguin groupe_sanguin = gs;
+    public Activite activité = status;
+    public string nationality = nationality;
+    public string adresse = adresse;
+    public string ville = ville;
+    public string code_postal = code_postal;
 }
 
 // transformer les objets théoriquement vu au début de cours
