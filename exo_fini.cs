@@ -240,3 +240,138 @@ public struct Fahrenheit
         return (fahrenheit * (cinq_neuv)) -32;
     }
 }
+
+// vue du chapitre sur les classes et les énumérations.
+
+enum Jour {Lundi, Mardi, Mercredi, Jeudi, Vendredi, Samedi, Dimanche}
+enum Activité {Etude, Emploi, Retraite}
+
+public class Personne (string nom, string prenom) {
+    string name = nom;
+    string surname = prenom;
+}
+
+// transformer les objets théoriquement vu au début de cours
+
+/*
+
+Class Personne(animal):
+	- nom
+	- prénom
+	- numéro_registre_national
+	- pointure
+	- activité[étudiant,travailleur,retraité]
+	- groupe sanguin
+	- nationalité
+	- adresse
+	- ville
+	- code postal
+
+	def parler(phrase: string):
+
+	def travailler(type_travail: object):
+
+*/
+
+/*
+
+class Étudiant(Personne):
+	- Diplômes[]
+	- Certificat[]
+	- école_actuelle
+
+	def étudier(matière: object):
+
+	def réviser(matière: object):
+
+	def écrire(phrase: string):
+
+class Animal:
+	- appellation
+	- poids
+	- taille
+	- age
+	- nombre_de_membre_inférieur
+	- vitesse_de_déplacement_marche
+	- vitesse_de_déplacement_course
+	- vitesse_de_déplacement_nage
+	- régime_alimentaire
+	- Statut_cladistique{}
+	- genre
+	- moyen_déplacement
+	
+	def marcher(distance: float):
+
+	def se_reproduire(conjoint: object):
+
+	def courir(distance: float):
+
+	def manger(aliment: object):
+
+	def boire(liquide: object):
+
+	def nager(distance: float):
+
+	def set_default_human():
+
+class Produit:
+	- libellé
+	- description
+	- prix
+	- code bar
+
+class CompteBancaire:
+	- propriétaire
+	- banque
+	- dépots
+
+	def retrait(somme: decimal):
+
+	def déposer(somme: decimal):
+
+Cédric = Personne (
+	- nom = Delval
+	- prénom = Cédric
+	- numéro_registre_national = blk
+	- pointure = default
+	- activité = étudiant
+	- groupe sanguin = idk
+	- nationalité = Belgique
+	- adresse = Rue de l'hôtel de ville 1
+	- ville = Perwez
+	- code postal = 1360
+)
+Alain = Personne (
+	- nom = Delval
+	- prénom = Alain
+	- numéro_registre_national = blk
+	- pointure = default
+	- activité = Travailleur
+	- groupe sanguin = idk
+	- nationalité = Belgique
+	- adresse = Rue de l'hôtel de ville 1
+	- ville = Perwez
+	- code postal = 1360
+)
+Cédric.set_default_human()
+Alain.set_default_human()
+
+Nutella = Produit (
+	- libellé = Nutella
+	- description = Chocolat à tartiné particulièrement gras
+	- prix = 5€
+	- code bar = blk
+)
+
+Cédric.manger(Nutella)
+
+Fuze_Tea : Black Tea Lemon = Produit (
+	- libellé = Fuze Tea : Black Tea Lemon
+	- description = Boisson sucrée low calorie pour random gamer
+	- prix = 2€
+	- code bar = blk
+)
+
+Cédric.boire(Fuze_Tea)
+
+*/
