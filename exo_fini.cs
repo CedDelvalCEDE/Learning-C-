@@ -258,6 +258,17 @@ public class Personne (string nom, string prenom, string nrn, GroupeSanguin gs, 
     public string adresse = adresse;
     public string ville = ville;
     public string code_postal = code_postal;
+
+    public void parler() {
+
+    }
+    public void travailler() {
+
+    }
+}
+
+public class Etudiant() {
+
 }
 
 // transformer les objets théoriquement vu au début de cours
